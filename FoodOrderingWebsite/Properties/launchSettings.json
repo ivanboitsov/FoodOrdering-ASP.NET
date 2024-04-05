@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "https": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SEED_KEY": "ImaBarbyG1rlInTh3BarbyW0rldLife1sPlastic1tsF4ntast1kYouCanBrushMyHairAndTouchMeEverwhere1maginationL1f3IsY0urCr3at1on"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7124;http://localhost:5022"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:46468",
+      "sslPort": 44320
+    }
+  }
+}
